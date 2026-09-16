@@ -1,6 +1,6 @@
 # ROC 4SIX HR Platform
 
-A small multi-client HR workspace built with Express, PostgreSQL, HTML, Tailwind CSS, and vanilla JavaScript.
+A small multi client HR workspace built with Express, PostgreSQL, HTML, Tailwind CSS, and vanilla JavaScript.
 
 ## Start locally
 
