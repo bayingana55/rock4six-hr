@@ -1,0 +1,20 @@
+{
+  "name": "rock4six-hr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "db:migrate": "psql -d rock4six_hr -v ON_ERROR_STOP=1 -f db/001_recruitment.sql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+body { font-family: 'DM Sans', system-ui, sans-serif; }
+.sidebar { background:#103f27; }
+.brand-header { background:#f4faf6; color:#145c32; }
+.brand-name { color:#145c32; }
+.brand-subtitle { color:#47735a; }
+.eyebrow { color:#145c32; }
+.nav-link { display:block; white-space:nowrap; text-align:left; padding:.8rem 1rem; border-radius:.7rem; color:#d4eadd; font-size:.9rem; font-weight:600; }
+.nav-link:hover,.nav-link.active { background:#1b5b38; color:#fff; }
+.nav-link.active { box-shadow:inset 3px 0 #8fcb9d; }
+.card { background:white; border:1px solid #e2e8f0; border-radius:1rem; box-shadow:0 3px 15px #0f172a08; }
+.btn { display:inline-flex; align-items:center; justify-content:center; gap:.4rem; border-radius:.65rem; padding:.65rem 1rem; font-size:.875rem; font-weight:700; cursor:pointer; }
+.btn-primary { background:#145c32; color:white; }.btn-primary:hover { background:#0f4827; }
+.btn-light { background:#f1f5f9; color:#334155; }.btn-light:hover { background:#e2e8f0; }
+.field { width:100%; border:1px solid #cbd5e1; border-radius:.6rem; padding:.65rem .8rem; background:white; font-size:.9rem; }
+.field:focus { outline:2px solid #93cfa5; border-color:#145c32; }
+.field-label { display:block; font-size:.8rem; font-weight:700; color:#475569; margin-bottom:.4rem; }
+.table-wrap { overflow-x:auto; }.data-table { width:100%; border-collapse:collapse; min-width:620px; }
+.data-table th { text-align:left; font-size:.72rem; letter-spacing:.06em; text-transform:uppercase; color:#64748b; background:#f8fafc; padding:.9rem 1rem; }
+.data-table td { padding:1rem; border-top:1px solid #e2e8f0; font-size:.88rem; }
+.data-table tbody tr:hover { background:#f8fafc; }
+.link { color:#145c32; font-weight:700; cursor:pointer; }.link:hover { text-decoration:underline; }
+.badge { display:inline-block; padding:.25rem .6rem; border-radius:99px; background:#f1f5f9; color:#475569; font-size:.75rem; font-weight:700; text-transform:capitalize; }
+.badge.active,.badge.open,.badge.Hired { background:#dcfce7; color:#166534; }
+.badge.inactive,.badge.closed,.badge.Rejected { background:#fee2e2; color:#991b1b; }
+.badge.Interview,.badge.Offer { background:#fef3c7; color:#92400e; }
+@media(min-width:1024px){.sidebar nav .nav-link{width:100%; margin-bottom:.3rem;}}
